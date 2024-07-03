@@ -1,0 +1,27 @@
+site_name: NeuroMark Docs
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - Defining Input and Output Types: input_output_types.md
+  - Creating the FastAPI Application: fastapi_application.md
+  - Packaging with Docker: packaging_with_docker.md
+  - Uploading Your Model: uploading_your_model.md
+
+
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+
+validation:
+  absolute_links: warn
